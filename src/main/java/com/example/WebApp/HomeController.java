@@ -16,4 +16,8 @@ public class HomeController {
     public @ResponseBody String greetingIDE() {
         return "Hello, VsCode!";
     }
+    @RequestMapping("/intellij")
+    public @ResponseBody String greetingIDEIn() {
+        return "Hello, IntelliJ!";
+    }
 }
