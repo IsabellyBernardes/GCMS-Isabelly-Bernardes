@@ -10,7 +10,7 @@ public class HomeController {
     }
     @RequestMapping("/isabelly")
     public @ResponseBody String greetingFulano() {
-        return "Hello, Isabelly!";
+        return "Hello, Isabell!";
     }
     @RequestMapping("/vscode")
     public @ResponseBody String greetingIDE() {
