@@ -18,7 +18,7 @@ jobs:
 
     runs-on: ubuntu-latest
     container:
-      image: docker://isabellyb/gcms/dockerfile
+      image: docker://isabellyb/gcms:webapp
     permissions:
       contents: read
 
